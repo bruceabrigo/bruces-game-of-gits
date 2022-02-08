@@ -170,7 +170,7 @@ $ git commit -m "Completed homework assignment"
 
 "Push" your commits to github:
 ```bash
-$ git push origin master
+$ git push origin main
 ```
 
 # Homework submission
