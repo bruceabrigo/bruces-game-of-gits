@@ -25,7 +25,7 @@ Topics: Getting familiar with the Unix Command Line <br>
 
 In the directory created by the clone, create five directories:  `app1`, `app2`, `app3`, `app4`, and `app5`.  In each one repeat the steps from today's notes to create a folder structure like the one below. 
 
-![Folder structure](https://git.generalassemb.ly/timm-schoenborn/hw1-unix-commands/blob/master/folder-structure.png?raw=true)
+![Folder structure](./folder-structure.png)
 
 Link the JS to the HTML, and add a `console.log()` to the JS file like we did in class. 
 
@@ -199,5 +199,3 @@ Want an extra challenge?  In many assignments or labs, you'll find a "Hungry for
 ### The grandfather of all modern text editors: `vi` (or [`vim`](https://github.com/vim/vim))
 
 * Read about the famous text editor ["vi"](https://en.wikipedia.org/wiki/Vi) online.  It's included with all Unix systems, and although it has a steep learning curve, it is an incredibly powerful text editor.  You can run a tutorial program that will teach you the essential `vi`/`vim` commands by typing `vimtutor` in your Terminal.  See if you can use it to create and edit a small ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) JavaScript program!
-
-
