@@ -25,7 +25,7 @@ Topics: Getting familiar with the Unix Command Line <br>
 
 In the directory created by the clone, create five directories:  `app1`, `app2`, `app3`, `app4`, and `app5`.  In each one repeat the steps from today's notes to create a folder structure like the one below. 
 
-![Folder structure](./folder-structure.png)
+![Folder structure](https://git.generalassemb.ly/timm-schoenborn/hw1-unix-commands/blob/master/folder-structure.png?raw=true)
 
 Link the JS to the HTML, and add a `console.log()` to the JS file like we did in class. 
 
