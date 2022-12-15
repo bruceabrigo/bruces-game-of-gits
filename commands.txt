@@ -1,0 +1,134 @@
+➜  star_wars git:(main) ✗ mkdir death_star
+➜  star_wars git:(main) ✗ touch darth_vader.txt
+➜  star_wars git:(main) ✗ touch princess_lei.txt storm_tropper.txt
+
+➜  star_wars git:(main) ✗ mkdir galaxy_far_far_away
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away
+➜  galaxy_far_far_away git:(main) ✗ mkdir tatoonie
+➜  galaxy_far_far_away git:(main) ✗ cd tatoonie
+➜  tatoonie git:(main) ✗ touch luke.txt
+➜  tatoonie git:(main) ✗ touch ben_kenobi.txt
+➜  tatoonie git:(main) ✗ 
+
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away
+➜  galaxy_far_far_away git:(main) ✗ cd tatoonie
+➜  tatoonie git:(main) ✗ mkdir millenium_falcon
+➜  tatoonie git:(main) ✗ cd millenium_falcon
+➜  millenium_falcon git:(main) ✗ touch han_solo.txt chewbaca.txt
+
+PART II
+
+➜  tatoonie git:(main) ✗ ls
+ben_kenobi.txt   luke.txt         millenium_falcon
+➜  tatoonie git:(main) ✗ mv ben_kenobi.txt
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  tatoonie git:(main) ✗ mv ben_kenobi.txt obi_wan.txt
+➜  tatoonie git:(main) ✗ ;s
+zsh: command not found: s
+➜  tatoonie git:(main) ✗ ls
+luke.txt         millenium_falcon obi_wan.txt
+
+PART III
+
+➜  star_wars git:(main) ✗ ls 
+commands.txt        death_star          galaxy_far_far_away
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away
+➜  galaxy_far_far_away git:(main) ✗ ls
+tatoonie
+➜  galaxy_far_far_away git:(main) ✗ cd tattoonie
+cd: no such file or directory: tattoonie
+➜  galaxy_far_far_away git:(main) ✗ ls    
+tatoonie
+➜  galaxy_far_far_away git:(main) ✗ mv tatoonie tatooine
+➜  galaxy_far_far_away git:(main) ✗ ls
+tatooine
+➜  galaxy_far_far_away git:(main) ✗ tatooine
+➜  tatooine git:(main) ✗ pwd
+/Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away/tatooine
+➜  tatooine git:(main) ✗ cd ..
+➜  galaxy_far_far_away git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls 
+commands.txt        death_star          galaxy_far_far_away
+➜  star_wars git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ ls
+darth_vader.txt   princess_lei.txt  storm_tropper.txt
+➜  death_star git:(main) ✗ cp darth_vader.txt /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away/tatooine
+➜  death_star git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away 
+➜  galaxy_far_far_away git:(main) ✗ ls
+tatooine
+➜  galaxy_far_far_away git:(main) ✗ cd tatooine
+➜  tatooine git:(main) ✗ ls
+darth_vader.txt  luke.txt         millenium_falcon obi_wan.txt
+➜  tatooine git:(main) ✗ 
+
+PART IV
+
+➜  star_wars git:(main) ✗ ls    
+commands.txt        death_star          galaxy_far_far_away
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away 
+➜  galaxy_far_far_away git:(main) ✗ cd tattoine
+cd: no such file or directory: tattoine
+➜  galaxy_far_far_away git:(main) ✗ cd tattooine
+cd: no such file or directory: tattooine
+➜  galaxy_far_far_away git:(main) ✗ cd tatooine
+➜  tatooine git:(main) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  tatooine git:(main) ✗ mv millenium_falcon /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away
+➜  tatooine git:(main) ✗ cd ..
+➜  galaxy_far_far_away git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ pwd
+/Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/death_star
+➜  death_star git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away 
+➜  galaxy_far_far_away git:(main) ✗ mv millenium_falcon /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/death_star
+➜  galaxy_far_far_away git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+darth_vader.txt   millenium_falcon  princess_lei.txt  storm_tropper.txt
+➜  death_star git:(main) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(main) ✗ pwd
+/Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/death_star/millenium_falcon
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  death_star git:(main) ✗ mv princess_lei.txt /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/death_star/millenium_falcon
+➜  death_star git:(main) ✗ ls
+darth_vader.txt   millenium_falcon  storm_tropper.txt
+➜  death_star git:(main) ✗ millenium_falcon 
+➜  millenium_falcon git:(main) ✗ ls
+chewbaca.txt     han_solo.txt     luke.txt         princess_lei.txt
+
+PART V:
+
+➜  star_wars git:(main) ✗ cd galaxy_far_far_away 
+➜  galaxy_far_far_away git:(main) ✗ ls
+obi_wan.txt tatooine
+➜  galaxy_far_far_away git:(main) ✗ rm obi_wan.txt 
+➜  galaxy_far_far_away git:(main) ✗ 
+
+PART VI:
+
+➜  galaxy_far_far_away git:(main) ✗ mkdir yavin_4
+
+➜  millenium_falcon git:(main) ✗ mv princess_lei.txt /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away/yavin_4
+
+➜  yavin_4 git:(main) ✗ mv millenium_falcon x_wing /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away
+
+➜  death_star git:(main) ✗ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+➜  death_star git:(main) ✗ mv tie_fighter_1 tie_fighter_2 tie_fighter_3 /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away
+
+PART VII
+
+➜  galaxy_far_far_away git:(main) ✗ rm -r tie_fighter_2 tie_fighter_3
+
+PART VIII
+
+➜  x_wing git:(main) ✗ touch the_force.txt
+
+➜  star_wars git:(main) ✗ rm -r death_star
+
+➜  galaxy_far_far_away git:(main) ✗ mv x_wing millenium_falcon /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away/yavin_4
+
+
