@@ -16,7 +16,8 @@
 ➜  tatoonie git:(main) ✗ cd millenium_falcon
 ➜  millenium_falcon git:(main) ✗ touch han_solo.txt chewbaca.txt
 
-PART II
+PART II //////////////////////////////
+
 
 ➜  tatoonie git:(main) ✗ ls
 ben_kenobi.txt   luke.txt         millenium_falcon
@@ -29,7 +30,8 @@ zsh: command not found: s
 ➜  tatoonie git:(main) ✗ ls
 luke.txt         millenium_falcon obi_wan.txt
 
-PART III
+PART III //////////////////////////////
+
 
 ➜  star_wars git:(main) ✗ ls 
 commands.txt        death_star          galaxy_far_far_away
@@ -63,7 +65,8 @@ tatooine
 darth_vader.txt  luke.txt         millenium_falcon obi_wan.txt
 ➜  tatooine git:(main) ✗ 
 
-PART IV
+PART IV //////////////////////////////
+
 
 ➜  star_wars git:(main) ✗ ls    
 commands.txt        death_star          galaxy_far_far_away
@@ -99,7 +102,8 @@ darth_vader.txt   millenium_falcon  storm_tropper.txt
 ➜  millenium_falcon git:(main) ✗ ls
 chewbaca.txt     han_solo.txt     luke.txt         princess_lei.txt
 
-PART V:
+PART V: //////////////////////////////
+
 
 ➜  star_wars git:(main) ✗ cd galaxy_far_far_away 
 ➜  galaxy_far_far_away git:(main) ✗ ls
@@ -107,7 +111,8 @@ obi_wan.txt tatooine
 ➜  galaxy_far_far_away git:(main) ✗ rm obi_wan.txt 
 ➜  galaxy_far_far_away git:(main) ✗ 
 
-PART VI:
+PART VI://////////////////////////////
+
 
 ➜  galaxy_far_far_away git:(main) ✗ mkdir yavin_4
 
@@ -119,11 +124,13 @@ PART VI:
 
 ➜  death_star git:(main) ✗ mv tie_fighter_1 tie_fighter_2 tie_fighter_3 /Users/bruceabrigo/sei_fruitcakes/deliverables/unix-star-wars/hw1-unix-commands/star_wars/galaxy_far_far_away
 
-PART VII
+PART VII //////////////////////////////
+
 
 ➜  galaxy_far_far_away git:(main) ✗ rm -r tie_fighter_2 tie_fighter_3
 
-PART VIII
+PART VIII //////////////////////////////
+
 
 ➜  x_wing git:(main) ✗ touch the_force.txt
 
