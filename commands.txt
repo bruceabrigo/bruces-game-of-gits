@@ -16,7 +16,7 @@
 ➜  tatoonie git:(main) ✗ cd millenium_falcon
 ➜  millenium_falcon git:(main) ✗ touch han_solo.txt chewbaca.txt
 
-PART II //////////////////////////////
+PART II ////////////////////////////////////////////////////////////
 
 
 ➜  tatoonie git:(main) ✗ ls
